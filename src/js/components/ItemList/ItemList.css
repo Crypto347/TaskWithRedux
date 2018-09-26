@@ -1,0 +1,10 @@
+.ItemList h1{
+    color: yellow;
+    text-shadow: -2px 0 darkblue, 0 2px darkblue, 2px 0 darkblue, 0 -2px darkblue;
+    margin-left: 20px;
+}
+
+.ItemList ul{
+    color: darkblue;
+    font-size: 30px;
+}

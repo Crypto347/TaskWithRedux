@@ -1,0 +1,51 @@
+.Top {
+    position: fixed;
+    z-index: 500;
+    background-color: rgb(235, 76, 76);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    min-width: 300px;
+    right: 20px;
+    bottom: 100px
+}
+
+.ItemList {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.Top input {
+    border: 2px solid #95a295;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 100%
+}
+
+.Top button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(66, 244, 220);
+    background: rgb(66, 244, 220);
+    margin-left: 5px;
+    float: right;
+}
+
+.Top button:hover{
+    border: 2px solid rgb(252, 237, 34);
+    background: rgb(252, 237, 34);
+}
